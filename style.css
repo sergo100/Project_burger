@@ -8,6 +8,7 @@ html{
 body{
     margin: 0 auto;
     height: 100%;
+    display: flex;
     flex-direction: column;
     font-weight: 500;
     font-size: 35px;
@@ -28,6 +29,7 @@ body{
     min-height: 70px;
     padding-top: 105px;
     padding-right: 65px;
+    
 }
 .logo{
     display: block;
@@ -49,6 +51,7 @@ body{
    line-height: 30px;
    text-decoration: none;
    color:#000000;
+   
 }
 .navigation_button{
     display: inline-block;
@@ -84,7 +87,7 @@ body{
     padding: 0;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size:15px;
     line-height: 20px;
 }
@@ -93,10 +96,50 @@ body{
     margin: 0;
     padding: 25px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 30px;
     line-height: 25px;
     color:#FFFFFF;
     background: #E62626;
     border-radius: 50px;
     border:none;
+}
+.page_main{
+    width: 1900px;
+    min-height: 900px;
+    text-align: center;
+}
+.container_catalog{
+    display: flex;
+    flex:wrap;
+    justify-content: center;
+}
+.catalog_title{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    line-height: 55px;
+    color:#000000;
+}
+.catalog_list{
+    display: flex;
+    flex:wrap;
+    justify-content: center;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 0;
+    gap: 40px 30px;
+    list-style: none;
+}
+.catalog_item{
+    width: 450px;
+}
+.catalog_text{
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color:#000000;
 }
