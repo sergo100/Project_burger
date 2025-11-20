@@ -8,7 +8,6 @@ html{
 body{
     margin: 0 auto;
     height: 100%;
-    display: flex;
     flex-direction: column;
     font-weight: 500;
     font-size: 35px;
@@ -41,13 +40,14 @@ body{
     gap: 30px;
     margin: auto 0;
     padding: 0;
-    margin-left: 159px;
+    margin-left: 149px;
     list-style: none;
 }
 .navigation_title_main{
    display: block; 
    min-width: 200px;
    font-weight: 700;
+   font-size: 25px;
    line-height: 30px;
    text-decoration: none;
    color:#000000;
@@ -80,7 +80,7 @@ body{
     padding-top: 190px;
     font-weight: 800;
     font-size: 33px;
-    line-height: 39px;
+    line-height: 40px;
 }
 .text_header_discount{
     margin: 0;
@@ -110,7 +110,7 @@ body{
 }
 .container_catalog{
     display: flex;
-    flex:wrap;
+    flex-wrap:wrap;
     justify-content: center;
 }
 .catalog_title{
@@ -119,10 +119,11 @@ body{
     font-size: 45px;
     line-height: 55px;
     color:#000000;
+    
 }
 .catalog_list{
     display: flex;
-    flex:wrap;
+    flex-wrap:wrap;
     justify-content: center;
     margin: 0;
     margin-left: 15px;
@@ -142,4 +143,24 @@ body{
     font-size: 35px;
     line-height: 45px;
     color:#000000;
+}
+.page_footer{
+    width: 1900px;
+    min-height: 450px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+
+}
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-top: 160px;
+    gap: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    justify-content: center;
+    list-style: none;
 }
